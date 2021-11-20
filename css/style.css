@@ -362,31 +362,31 @@ ul{
    margin-top: 50px;
 }
 .client-icon-item{
-   display: flex;
+   /* display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: center; */
    width: 170px;
    height: 92px;
-   
-}
-.client-icon-item:hover,
-.client-icon-item:focus{
-   border-color: var(--text-active);
-   fill: var(--text-active);
 }
 .client-icon-link{
+   display: flex;
+   justify-content: center;
+   align-items: center;   
    width: 100%;
    height: 100%;
-   fill: var(--color-icon-clients);border-radius: 4px;
-   border: 1px solid var(--color-icon-clients)
+   color: var(--color-icon-clients);
+   border-radius: 4px;
+   border: 1px solid var(--color-icon-clients);
+}
+.client-icon-link:hover,
+.client-icon-link:focus{
+   color: var(--text-active);
+   border-color: var(--text-active);
 }
 .client-icons{
    fill: currentColor;
 }
-.client-icons:hover,
-.client-icons:focus{
-   fill: var(--text-active);
-}
+
 
                                  /*страница 2*/
 
